@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 0, 242, 255)),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Value Widget'),
@@ -65,6 +66,38 @@ class _MyHomePageState extends State<MyHomePage> {
             autovalidateMode: AutovalidateMode.always,
             child: Column(
               children: <Widget>[
+                Text(
+                  "Anita Nursi",
+                  style: TextStyle(
+                    fontSize: 18, // Ukuran font
+                    fontWeight: FontWeight.bold, // Tebal huruf
+                    color: Colors.blue, // Warna teks
+                  ),
+                ),
+                Text(
+                  "Farhan Novaldi",
+                  style: TextStyle(
+                    fontSize: 18, // Ukuran font
+                    fontWeight: FontWeight.bold, // Tebal huruf
+                    color: Colors.blue, // Warna teks
+                  ),
+                ),
+                Text(
+                  "M. Azkiyatul Fikri Heafiz",
+                  style: TextStyle(
+                    fontSize: 18, // Ukuran font
+                    fontWeight: FontWeight.bold, // Tebal huruf
+                    color: Colors.blue, // Warna teks
+                  ),
+                ),
+                Text(
+                  "Siptya Safira Rahmmi",
+                  style: TextStyle(
+                    fontSize: 18, // Ukuran font
+                    fontWeight: FontWeight.bold, // Tebal huruf
+                    color: Colors.blue, // Warna teks
+                  ),
+                ),
                 Row(
                   children: <Widget>[
                     Container(
